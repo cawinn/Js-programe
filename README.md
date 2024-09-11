@@ -1,98 +1,98 @@
-# Js-programe
-var city = "Salem";
-console.log("name of the city="+city);
+# var city = "Salem";
+# console.log("name of the city="+city);
 
-function mycity()
-{
-    console.log("name of the city="+city);
-}
-function  modifiedmycity()
-{
-    console.log("name of the city="+city);
-}
-mycity();
-modifiedmycity();
-
+# function mycity()
+# {
+#     console.log("name of the city="+city);
+# }
+# function  modifiedmycity()
+# {
+#     console.log("name of the city="+city);
+# }
+# mycity();
+# modifiedmycity();
 
 
-//multiple variable in single statement//
 
-var a=10,b=20,c=50;
-function add()
-{
-    console.log("a+b+c");
-}
-add();
+# //multiple variable in single statement//
 
-//o/p--->undefined//hoisting
-console.log(data);
-var data=50;
+# var a=10,b=20,c=50;
+# function add()
+# {
+#     console.log("a+b+c");
+# }
+# add();
 
-//o/p---->50//
-var data=50;
-console.log(data);
+# //o/p--->undefined//hoisting
+# console.log(data);
+# var data=50;
 
-//when value is changed for a desired keyword the old value is removed//
-let wish;
-wish = "welcome"
-wish = "hello"
-console.log(wish);
+# //o/p---->50//
+# var data=50;
+# console.log(data);
 
-let greet = wish;
-console.log(wish);
-console.log(greet);
+# //when value is changed for a desired keyword the old value is removed//
+# let wish;
+# wish = "welcome"
+# wish = "hello"
+# console.log(wish);
 
-//qualification cannot be access before the initialization//
-qualification = "BE";
-console.log(qualification);
+# let greet = wish;
+# console.log(wish);
+# console.log(greet);
 
-let name_student = "Shiva";//global scoped variable//
-function getstudentname()
-{
-    console.log(name_student);
-}
-function gettrainername()
-{
-    console.log(name_student);
-}
-getstudentname();
-gettrainername();
+# //qualification cannot be access before the initialization//
+# qualification = "BE";
+# console.log(qualification);
 
-function gettrainername()
-{
-    let company = "TCS";
-    console.log(name_student);
-    console.log(company)
-}
+# let name_student = "Shiva";//global scoped variable//
+# function getstudentname()
+# {
+ #    console.log(name_student);
+# }
+# function gettrainername()
+# {
+#     console.log(name_student);
+# }
+# getstudentname();
+# gettrainername();
 
-gettrainername();
+# function gettrainername()
+# {
+  #   let company = "TCS";
+  #   console.log(name_student);
+# 
+console.log(company)
+# }
 
-//js variable declaration using let keyword//
-function iterateme()
-{
-    let i = 4;//let keyword boundary with in the loop//
-    for (let i=0;i<6;i++)
-    {
-        console.log("loop"+i)
-    }
-    console.log("final value of i outside the loop:"+i);
-}
-iterateme();
+# gettrainername();
 
-//js variable declaration using var keyword//var  keyword will work inside and outside the loop//
-function iterateme()
-{
-    var i = 4;
-    for (var i=0;i<=6;i++)
-    {
-        console.log("loop"+i)
-    }
-    console.log("final value of i outside the loop:"+i);
-}
-iterateme();
+# //js variable declaration using let keyword//
+# function iterateme()
+# {
+#     let i = 4;//let keyword boundary with in the loop//
+#     for (let i=0;i<6;i++)
+ #    {
+    #     console.log("loop"+i)
+  #   }
+  #   console.log("final value of i outside the loop:"+i);
+# }
+# iterateme();
 
-let $=10;
-let _=20;
-let sum=$+_;
-console.log(sum);
-//camelcase ----> myData
+# //js variable declaration using var keyword//var  keyword will work inside and outside the loop//
+# function iterateme()
+# {
+  #   var i = 4;
+   #  for (var i=0;i<=6;i++)
+  #   {
+   #      console.log("loop"+i)
+   #  }
+   #  console.log("final value of i outside the loop:"+i);
+# }
+# iterateme();
+
+# let $=10;
+# let _=20;
+# let sum=$+_;
+# console.log(sum);
+#//camelcase ----> myData
